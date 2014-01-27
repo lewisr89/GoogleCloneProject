@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img.googlelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 538px;
+    max-height: 105px;
+   	clear:both;
+    position: relative;
+	top: 145px;
+
+     }
+
+ #navbar{
+ 	list-style-type:none;
+margin:20px;
+padding:10px;
+font-family:Arial;
+display:inline-block;
+float:right;
+vertical-align: top;
+ }
+ li
+{
+ display:inline;
+ padding: 9px;
+}
+
+a{
+	 text-decoration: none;
+ color:gray;
+ font-size: 14px;
+}
+
+a:hover{
+	 text-decoration: underline;
+}
+
+#button{height: 50px;
+    width: 180px;
+    border-color: #6495ED;
+    background-color: #4584f0;
+    border-style: solid;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+    color:white;
+    padding: 7px 12px 7px 12px;
+}
+#button a{
+	color:white;
+	font-weight: bold;
+}
+#button a:hover{
+	text-decoration: none;
+}
+
+input {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 400px;
+    height:25px;
+    top: 160px;
+
+}
+ #searchbuttons{
+padding:10px;
+font-family:Arial;
+display:block;
+text-align: center;
+margin-top: 180px;
+
+ }
+
+#searchbuttons li
+{
+ padding: 9px;height: 50px;
+    width: 180px;
+    border-color: #c6c6c6;
+    border-width: 1px;
+    background-color: #f7f7f7;
+    border-style: solid;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+    padding: 7px 12px 7px 12px;
+    margin: 10px;
+}
+
+#searchbuttons li a{
+	color:black;
+	font-weight:bold;
+}
+
+#searchbuttons li a:hover{
+	text-decoration: none;
+}
+
+#searchbuttons li:hover
+{
+ padding: 9px;height: 50px;
+    width: 180px;
+    border-color: #c6c6c6;
+    border-width: 1px;
+    background-color: #f7f7f7;
+    border-style: solid;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+    padding: 7px 12px 7px 12px;
+    margin: 10px;
+    box-shadow: 0px 0px 1px 0px #888888;
+}
+
+#footer {
+list-style-type:none;
+padding:10px;
+font-family:Arial;
+display:inline;
+background: #f7f7f7;
+width:100%;
+position: fixed;
+bottom: 0;
+
+}
+#footerright li{
+float:right;
+}
+
